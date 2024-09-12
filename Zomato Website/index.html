@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body style="overflow: auto;">
+    <div>
+        <div id="header-area">
+            <div id="top-bar">
+                <div id="download-icon">
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                    <a href="" class="top" id="get-app">Get the App</a>
+                </div>
+                <div id="top-links">
+                    <a href="" class="top">Investor Relations</a>
+                    <a href="" class="top">Add restaurant</a>
+                    <a href="" class="top">Log in</a>
+                    <a href="" class="top">Sign up</a>
+                    
+                </div>
+            </div>
+            <div id="title">
+                <img src="/MEDIA/IMAGES/zomato-logo.avif" alt="">
+            </div>
+            <div id="title-desc"><p>Discover the best food & drinks in Trichy</p></div>
+
+            <div id="search-bar-area">
+                <i class="fa-solid fa-location-dot" id="location"></i>
+                <select name="places" id="selection-area">
+                    <option value="">Trichy
+                        <i class="fa-solid fa-caret-down"></i>
+                    </option>
+                    <option value="">
+                        <div>
+                            <i class="fa-solid fa-location-crosshairs"></i>
+                            <p>Detect current location</p><br>
+                            <p>Using GPS</p>
+                        </div>
+                    </option>
+                </select>
+                <div id="line">
+                </div> 
+                <i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
+                <input type="search" placeholder="Search for restaurant, cuisine or a dish" id="input-box">
+            </div>
+        </div>
+
+        <div id="dishes-area">
+            <div id="dish-1">
+                <img src="/MEDIA/IMAGES/top-left.avif" alt="">
+                <div class="dish-desc">
+                <h4>Order Online</h4>
+                <p>Stay home and order to your doorstep</p>
+            </div>
+        </div>
+            <div id="dish-2">
+                <img src="/MEDIA/IMAGES/top-right.avif" alt="">
+                <div class="dish-desc">
+                <h4>Dining</h4>
+                <p>View the city's favourite dining venues</p>
+            </div>
+        </div>
+        </div>
+        <div id="collections-area">
+                <h1>Collections</h1>
+                <div id="collection-heading-area">
+                    <p>Explore curated lists of top restaurants, cafes, pubs, and bars in Trichy, based on trends</p>
+                    <div id="collection-sideBar">
+                        <p>All collections in Trichy<i class="fa-solid fa-caret-right"></i></p>    
+                    </div>
+                </div>
+        </div>
+        <div id="collection-all-images">
+            <div id="collection-img1" class="collection-images">
+                <p>Vegies friendly</p>
+                <p class="collection-p">7 Places <i class="fa-solid fa-caret-right"></i></p>
+            </div>
+            <div id="collection-img2" class="collection-images">
+                <p>Sweet Tooth</p>
+                <p class="collection-p">6 Places <i class="fa-solid fa-caret-right"></i></p>
+            </div>
+            <div id="collection-img3" class="collection-images">
+                <p>Regional Favourites</p>
+                <p class="collection-p">5 Places <i class="fa-solid fa-caret-right"></i></p>
+            </div>
+        </div>
+    </div>
+        <div id="local-area-container">
+            <div id="locality-area">
+                <p>Popular localities in and around <b style="color: rgb(33, 33, 33); font-weight: 300;">Trichy</b></p>
+                <div id="grid-container">
+                <div id="place1" class="gridArea">
+                    <p class="grid-p">Thillai Nagar</p>
+                    <i class="fa-solid fa-chevron-right arrow" ></i>
+                    <p class="grid-place">187 Places</p>
+                </div>
+                <div id="place2" class="gridArea">
+                    <p class="grid-p">Cantonment</p>
+                    <i class="fa-solid fa-chevron-right arrow" ></i>
+                    <p class="grid-place">148 Places</p>
+                </div>
+                <div id="place3" class="gridArea">
+                    <p class="grid-p">KK Nagar</p>
+                    <i class="fa-solid fa-chevron-right arrow" ></i>
+                    <p class="grid-place">125 Places</p>
+                </div>
+                <div id="place4" class="gridArea">
+                    <p class="grid-p">Kattur</p>
+                    <i class="fa-solid fa-chevron-right arrow" ></i>
+                    <p class="grid-place">115 Places</p>
+                </div>
+                <div id="place5" class="gridArea">
+                    <p class="grid-p">Woraiyur</p>
+                    <i class="fa-solid fa-chevron-right arrow" ></i>
+                    <p class="grid-place">114 Places</p>
+                </div>
+                <div id="place6" class="gridArea">
+                    <p class="grid-p">Srirangam</p>
+                    <i class="fa-solid fa-chevron-right arrow" ></i>
+                    <p class="grid-place">98 Places</p>
+                </div>
+                <div id="place7" class="gridArea">
+                    <p class="grid-p">Main Guard Gate</p>
+                    <i class="fa-solid fa-chevron-right arrow" ></i>
+                    <p class="grid-place">93 Places</p>
+                </div>
+                <div id="place8" class="gridArea">
+                    <p class="grid-p">TVS Tolgate</i></p>
+                    <i class="fa-solid fa-chevron-right arrow" ></i>
+                    <p class="grid-place">52 Places</p>
+                </div>
+                <div id="place9" class="gridArea">
+                    <div id="seeMore-div">
+                    <p id="seemore">see more<i class="fa-solid fa-chevron-down down-arrow"></i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div id="download-app-area">
+            <div id="app-img">
+                <img src="/MEDIA/IMAGES/mobile-img.png" alt="Mobile image" width="250px" height="240px" id="application">
+            </div>
+            <div id="download-right-area">
+            <div id="app-head">
+                <h2>Get the Zomato app</h2>
+            </div>
+            <div id="app-desc">
+                <p>We will send you a link, open it on your phone to download <br>the app</p>
+            </div>
+            <div id="radio-buttons">
+                <input type="radio" name="download" class="buttons" checked>
+                <label for="email">Email</label>
+                <input type="radio" name="download" class="buttons" id="phone">
+                <label for="phone">Phone</label>
+            </div>
+            <div id="input-wrapper">
+            <div id="text-area">
+                <input type="text" placeholder="Email">
+            </div>
+            <div id="share-button">
+                <button>Share App Link</button>
+            </div>
+            </div>
+            <p style="color: #666666;">Download app from</p>
+            <div id="two-img">
+                <div id="gplay">
+                    <img src="/MEDIA/IMAGES/gpay-zomato.webp" alt="">
+                </div>
+                <div id="appstore">
+                    <img src="/MEDIA/IMAGES/appStore-zomato.webp" alt="">
+                </div>
+            </div>
+        </div>
+        </div>
+           <div id="explore-wrapper">
+            <h1>Explore options near me</h1> 
+            <div id="explore-options-area">
+            <div class="places">
+                <p>Popular cuisines near me</p>
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div class="places">
+                <p>Popular restaurant types near me</p>
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div class="places">
+                <p>Top Restaurant Chains</p>
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div class="places">
+                <p>Cities We Deliver To</p>
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+        </div>
+        </div>
+        </div>
+    <div id="footer-area">
+        <div id="foot-top">
+            <div id="foot-logo-img">
+                <img src="/MEDIA/IMAGES/zomato-foot-logo.png" alt="">
+            </div>
+            <div id="container-wrap">
+                <div id="india">
+                    <img src="/MEDIA/IMAGES/flag.png" alt="" height="25px" width="25px">
+                    <p>India</p>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div id="lang">
+                    <i class="fa-solid fa-globe"></i>
+                    <p>English</p>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+            </div>
+        </div>
+            <div id="bottom-area">
+                <div>
+                    <h4>ABOUT ZOMATO</h4>
+                    <p>Who We Are</p>
+                    <p>Blog</p>
+                    <p>Work With Us</p>
+                    <p>Investor Relations</p>
+                    <p>Report Fraud</p>
+                    <p>Press Kit</p>
+                    <p>Contact Us</p>
+                </div>
+                <div>
+                    <h4>ZOMAVERSE</h4>
+                    <p>Zomato</p>
+                    <p>Blinkit</p>
+                    <p>Feeding India</p>
+                    <p>Hyperpure</p>
+                    <p>Zomato Live</p>
+                    <p>Zomaland</p>
+                    <p>Weather Union</p>
+                </div>
+                <div>
+                    <h4>FOR RESTAURANTS</h4>
+                    <p>Partner With Us</p>
+                    <p>Apps For You</p>
+                </div>
+                <div>
+                    <h4>LEARN MORE</h4>
+                    <p>Privacy</p>
+                    <p>Security</p>
+                    <p>Terms</p>
+                    <p>Sitemap</p>
+                </div>
+                <div id="social-links">
+                    <h4>SOCIAL LINKS</h4>
+                    <div id="media-icons">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+                    <div id="bottom-logos">
+                        <div>
+                            <img src="/MEDIA/IMAGES/gpay-zomato.webp" alt="" width="134" height="40px">
+                        </div>
+                        <div id="sec-logo">
+                            <img src="/MEDIA/IMAGES/appStore-zomato.webp" alt="" width="134" height="40px">
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+            <hr>
+        <div id="copyright-area">
+            <p>By continuing past this page, your agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2024 &copy; Zomato&#8482; Ltd. All rights reserved.  </p>
+        </div>
+    </div>
+</body>
+</html>
